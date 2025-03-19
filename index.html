@@ -19,7 +19,7 @@
         <p>L’objectif de ces sondages est de recueillir des données objectives sur le ressenti des populations et d’identifier les principales problématiques rencontrées. 
             Ces résultats nous permettront d’appuyer nos actions et revendications auprès des autorités et des entreprises concernées.</p>
 
-        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <form action="https://formspree.io/f/xgvollka" method="POST">
             <div class="form-group">
                 <label for="name">Nom (Optionnel) :</label>
                 <input type="text" id="name" name="nom" placeholder="Entrez votre nom">
@@ -239,17 +239,6 @@
                 <input type="number" id="quantite" name="quantite_appareils_endommages" placeholder="Renseignez la quantité de vos appareils" required>
             </div>
 
-            <h4>Justifiez les appareils endommagés</h4>
-            <div class="form-group">
-                <label for="device-image">Téléversez des images des produits et appareils endommagés :</label>
-                <input type="file" id="device-image" name="images-appareil[]" accept="image/*" multiple>
-            </div>
-
-            <div class="form-group">
-                <label for="document">Téléversez des justificatifs des produits et appareils (facture, rapport, etc.) :</label>
-                <input type="file" id="document" name="document[]" accept=".pdf,.docx,.jpg,.png" multiple>
-            </div>
-            
             <div class="form-group">
                 <label for="comments">Suggestions ou commentaires supplémentaires :</label>
                 <textarea id="comments" name="commentaires" rows="4" placeholder="Entrez vos commentaires et suggestions ici!"></textarea>
